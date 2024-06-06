@@ -10,16 +10,24 @@
     
     <h1>Stone : Papper : Scissor</h1>
 
+    <!-- emojies buttons -->
     <div class="options">
-    <button>👊</button>
-    <button>✋</button>
-    <button>✌</button>
+    <button onclick="playGame('rock')">👊</button>
+    <button onclick="playGame('papper')">✋</button>
+    <button onclick="playGame('scissor')">✌</button>
     </div>
 
-    <div id="playerSelected">Player:</div>
-    <div id="computerSelected">Computer:</div>
+    <!-- name display screens -->
+    <div id="playerDisplay">PLAYER:</div>
+    <div id="computerDisplay">COMPUTER</div>
 
+    <!-- result screen -->
     <div id="Result">Result:</div>
+
+    <!-- score screens -->
+    <div id="playerScores">Player Score:</div>
+    <div id="computerScores">Computer Score:</div>
+
 
     <script src="script.js"></script>
 </body>
